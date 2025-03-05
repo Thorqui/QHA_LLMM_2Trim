@@ -1,0 +1,101 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: street;
+}
+@font-face {
+    font-family: street;
+    src: url(font/street.otf);
+}
+h1  {
+    color: crimson;
+    size: 46px;
+    text-align: center;
+}
+h2{
+    color: crimson;
+    font-size: 28px;
+    text-align: center;
+}
+
+table{
+    height: 600px;
+    width: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    margin: auto;
+    background-color: black;
+    text-align: center;
+}
+#Titulo_Tabla{
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    text-align: center;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 40px;
+}
+tr, td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+p{
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    display: block;
+    text-align: center;
+}
+
+/*FORMULARIO*/
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    align-items: center;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+legend {
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+textarea {
+    width: 560px;
+    height: 150px;
+}
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin: 8px;
+}
+fieldset {
+    margin: 10px;
+    padding: 5px;
+}
